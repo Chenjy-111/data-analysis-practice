@@ -1,0 +1,31 @@
+Qingdao Weather Prediction Model Report
+=============================================
+
+Data period: 2021-01-01 to 2025-12-31
+Number of samples: 1825
+Target: next day's maximum temperature
+
+Linear Regression:
+MAE: 1.995 °C
+R2 Score: 0.924
+
+Random Forest Regressor:
+MAE: 1.981 °C
+R2 Score: 0.926
+
+Feature columns:
+- temperature_2m_max
+- temperature_2m_min
+- temperature_2m_mean
+- apparent_temperature_mean
+- precipitation_sum
+- rain_sum
+- wind_speed_10m_max
+- wind_speed_10m_mean
+- wind_gusts_10m_max
+- month
+- dayofyear
+- temp_range
+- is_rainy_day
+- temp_mean_7d
+- precipitation_7d
